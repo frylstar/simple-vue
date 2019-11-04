@@ -1,0 +1,23 @@
+{
+  "name": "simple-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shizhongzheng/simple-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shizhongzheng/simple-vue/issues"
+  },
+  "homepage": "https://github.com/shizhongzheng/simple-vue#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2"
+  }
+}
