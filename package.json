@@ -1,23 +1,26 @@
 {
-  "name": "simple-vue",
+  "name": "sandy",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.prod.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shizhongzheng/simple-vue.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shizhongzheng/simple-vue/issues"
-  },
-  "homepage": "https://github.com/shizhongzheng/simple-vue#readme",
+  "license": "MIT",
   "devDependencies": {
-    "webpack": "^4.41.2"
+    "@babel/core": "^7.7.2",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
   }
 }
