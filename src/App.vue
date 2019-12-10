@@ -1,9 +1,11 @@
 <template>
   <div class="container">
     <h1 class="title" v-if="1">Hello World</h1>
-    <h2>这是简易Vue项目配置23333</h2>
     <h3>html-webpack-plugin</h3>
     <h4>VueLoaderPlugin</h4>
+    <h4>处理资源路径</h4>
+    <img src="../static/Command.png">
+    <img :src="url">
   </div>
 </template>
 
@@ -11,7 +13,7 @@
   export default {
     data() {
       return {
-
+        url: require('../static/Command.png'),
       }
     }
   }
@@ -21,6 +23,7 @@
 // @titleColor: red;
 @import './theme/base.less';
 .container {
+  // background: url('../static/Command.png');
   .title {
     color: @titleColor;
   }
